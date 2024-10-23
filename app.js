@@ -1,6 +1,6 @@
 const express = require('express');
 const dotenv = require('dotenv');
-const transactionRoutes = require('./routes/transactionRoutes');
+const transactionRoutes = require('./routes/transactionsRoutes');
 
 dotenv.config();
 const app = express();
